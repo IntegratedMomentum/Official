@@ -1,0 +1,35 @@
+h1{
+  font-size: 100px;
+  margin: 100px 20px 30px 20px
+}
+strong{
+  margin: 20px;
+}
+input{
+  padding: 7px;
+  height: 70px;
+  width: 80vw;
+  margin-left: 30px;
+  margin-top: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+textarea{
+  height: 170px;
+  width: 80vw;
+  margin-left: 30px;
+  margin-top: 10px;
+  border: 1px solid black;
+}
+
+input[type=submit]{
+  height: 3vh;
+  width: 25vw;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 40px;
+  background-color: #37B3FD;
+}
+

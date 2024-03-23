@@ -1,0 +1,36 @@
+.texture_block{
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  margin: 20px;
+  border: 2.5px solid black;
+  border-radius: 40px;
+  align-items: center;
+  padding: 40px;
+}
+
+.tpname{
+  font-size: 80px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.download{
+  top: 50px;
+  color: #ffffff;
+  padding: 40px 60px;
+  width: 250px;
+  font-weight: 900;
+  font-size: 25px;
+  background-color: #33f54a;
+  border-radius: 80px;
+  box-shadow: -8px -20px 10px #32b832 inset;
+  text-decoration: none;
+  margin: 10px
+}
+
+h1{
+  font-size: 100px;
+  font-weight: 900;
+  margin: 80px 20px 50px 20px;
+}

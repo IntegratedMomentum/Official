@@ -1,0 +1,37 @@
+{%extends "base.html"%}
+
+<!--title-->
+{%block title%}Contact Us{%endblock title%}
+
+<!--css-->
+{%block css%}
+  <link rel="stylesheet" href="static/css/CSS-contact.css">
+{%endblock css%}
+
+<!--any-->
+{%block any%}
+<h1>Contact Us</h1>
+Contact for any questions or if you want to make responsive websites at a affordable price.
+<br />
+<form method="post" action="/contact">
+<!--csrf-->
+{%csrf_token%}
+
+<strong>Enter your name:</strong>
+<br />
+<input type="text" placeholder="Enter your name" name="name" />
+<br /><br />
+
+<strong>Subject:</strong>
+<br />
+<input type="text" name="password" placeholder="enter your subject"/>
+<br /><br />
+
+<strong>Enter your reason for contact:</strong>
+<br />
+<textarea name="desc" placeholder="Give your brief reason for contact" ></textarea>
+<input type="submit" value="submit" />
+
+</form>
+
+{%endblock any%}

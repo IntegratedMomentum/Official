@@ -1,0 +1,87 @@
+<!--basic HTML-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="#" type="image/png">
+  
+    <style>
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div{
+  display: inline;
+  color: #288BCE;
+  font-weight: 500;
+}
+select{
+  margin: 8px;
+  opacity: 0.8;
+  border: none;
+  background-color: white;
+}
+b{
+  display: inline;
+  color: #288BCE;
+}
+section{
+  position: absolute;
+  right: 18.5%;
+  top: 38%;
+  font-size: 14px;
+  color: #288BCE;
+}
+img{
+  padding: 40px 50px;
+}
+input{
+      width: 60vw;
+      height: 4.5vh;
+      margin: 0px 25px;
+      border-radius: 5px;
+      border: 1px solid #999999;
+      background-color: #f9f9f9;
+}
+input[type=submit]{
+        background-color: #4CB5F9;
+        color: white;
+        border: none;
+        margin: 40px 27px;
+        border-radius: 5px;
+        
+      }
+        
+    </style>
+    <title>Insta tick</title>
+</head>
+
+<body> 
+<select>
+  <option>English</option>
+  <option>Hindi</option>
+</select>
+</input>
+  
+<img src="/static/image/inst.png" alt="Instagram" height="80px">
+
+<form method="post" >
+{%csrf_token%}
+
+<input type="text" placeholder="Phone number, username, email" name="iname" required/>
+  <br />
+  <br />
+<input type="password" placeholder="Password" name="ipass" required />
+  <br /><br />
+<section class="1">Forgot password?</section>
+<input type="submit" value="Login" />
+
+</form>
+Don't have an account? <div>Sign up</div>
+
+</body>
+
+</html>

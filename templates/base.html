@@ -1,0 +1,35 @@
+<html>
+<head>
+   <title>{%block title%} {%endblock title%} | Integrated Momentum</title>
+
+<meta charset="UTF-8">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<link rel="shortcut icon" href="logo.png">
+    {%block css%} {%endblock css%}
+   <link rel="stylesheet" href="/static/css/CSS-base.css"/>
+</head>
+<body>
+<!--navbar-->
+<!--buttons-->
+<nav class="buttons">
+<ul class="navbtns">
+  <li><a href="/">Home</a></li>
+  <li><a href="download">Download</a></li>
+  <li><a href="about">About</a></li>
+  <li><a href="contact">Contact</a></li>
+  
+</ul>
+   </nav>
+<!--end of navbar-->
+
+<!--Title-->
+{%block navbg%} {%endblock navbg%}
+
+<!--pages-->
+{%block any%}{%endblock any%}
+
+<!--discreption-->
+{%block discreption%}
+{%endblock discreption%}
+</body>
+</html>

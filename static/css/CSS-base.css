@@ -1,0 +1,32 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: justify;
+    
+}
+
+/*navbar*/
+.navbtns::before{
+  position: absolute;
+  z-index: -1;
+  content: "";
+  height: 100px;
+  width: 100vw;
+  opacity: 0.4;
+  background-color: black;
+}
+.navbtns{
+  position: absolute;
+  display: flex;
+  font-size: 5vw;
+  list-style: none;
+  top: 0;
+}
+
+.navbtns li a{
+  display: flex;
+  text-decoration: none;
+  padding: 20px 35px;
+  color: white;
+}
